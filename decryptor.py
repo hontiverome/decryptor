@@ -27,7 +27,7 @@ def DecryptorCode():
     return StrOutput
 
 # Design Purposes>
-showresults="test"
+showresults="Here is the decrypted text from your input"
 for i in range(len(showresults)):
     print(termcolor.colored(showresults[i], 'green'), end='', flush=True)
     time.sleep(0.1)
