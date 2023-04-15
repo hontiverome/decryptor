@@ -19,7 +19,9 @@ for i in range(len(StrInput)):
 # If letter is !, change to u
     if StrInput[i] == "!":
         StrOutput += "u"
-# End loop
+# End loop, by compiling all letters
+    else:
+        StrOutput+= StrInput[i]
 # Execute the code
 print(StrOutput)
 
