@@ -14,6 +14,8 @@ for i in range(len(StrInput)):
     if StrInput[i] == "#":
         StrOutput += "i"
 # If letter is +, change to o
+    if StrInput[i] == "+":
+        StrOutput += "o"
 # If letter is !, change to u
 # End loop
 # Execute the code
