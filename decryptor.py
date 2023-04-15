@@ -11,6 +11,8 @@ for i in range(len(StrInput)):
     if StrInput[i] == "&":
         StrOutput += "e"
 # If letter is #, change to i
+    if StrInput[i] == "#":
+        StrOutput += "i"
 # If letter is +, change to o
 # If letter is !, change to u
 # End loop
