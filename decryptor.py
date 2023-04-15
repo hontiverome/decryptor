@@ -34,9 +34,10 @@ def ShowResults():
         time.sleep(0.1)
 def CypherPlainText(): 
     Seperate= ' '.join(StrOutput)
+    # Font using pyfiglet, whilst giving it color using termcolor
     print(termcolor.colored(pyfiglet.figlet_format(StrOutput, font="smkeyboard", justify="center"), 'red'))
     print("or:\n")
-    # Same code as show result to show complete text in a readable manner.
+    # Same code as show result to show complete text in a readable manner
     # Made use of 'join' function to add spaces between each text
     for i in range(len(Seperate)):
         print(termcolor.colored(f"{Seperate[i]}", 'red'), end='', flush=True)
