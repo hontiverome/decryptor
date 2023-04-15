@@ -27,9 +27,9 @@ def DecryptorCode():
     return StrOutput
 
 # Design Purposes>
-result="test"
-for i in range(len(result)):
-    print(termcolor.colored(result[i], 'green'), end='', flush=True)
+showresults="test"
+for i in range(len(showresults)):
+    print(termcolor.colored(showresults[i], 'green'), end='', flush=True)
     time.sleep(0.1)
 exit()
 # Execute the code
