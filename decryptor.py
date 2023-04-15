@@ -27,12 +27,15 @@ def DecryptorCode():
     return StrOutput
 
 # Design Purposes>
-showresults="Here is the decrypted text from your input:\n"
-for i in range(len(showresults)):
-    print(termcolor.colored(showresults[i], 'green'), end='', flush=True)
-    time.sleep(0.1)
+def ShowResults():
+    showResults="Here is the decrypted text from your input:\n"
+    for i in range(len(showResults)):
+        print(termcolor.colored(showResults[i], 'green'), end='', flush=True)
+        time.sleep(0.1)
+
 # Execute the code
 StrOutput=DecryptorCode()
+ShowResults()
 print(StrOutput)
 
 
