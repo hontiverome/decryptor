@@ -2,12 +2,12 @@
 
 Assignment to make a code that is able to decrypt the encrypted text
 
-# Text include:
- #### If letter is *, change to a
- #### If letter is &, change to e
- #### If letter is # , change to i
- #### If letter is +, change to o
- #### If letter is !, change to u
+# Decrypts Text if:
+ #### letter is *, change to a
+ #### letter is &, change to e
+ #### letter is # , change to i
+ #### letter is +, change to o
+ #### letter is !, change to u
 
 # Output:
 
