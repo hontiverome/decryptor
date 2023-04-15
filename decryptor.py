@@ -8,16 +8,16 @@ for i in range(len(StrInput)):
     if StrInput[i] == "*":
         StrOutput += "a"
     # If letter is &, change to e
-    if StrInput[i] == "&":
+    elif StrInput[i] == "&":
         StrOutput += "e"
     # If letter is #, change to i
-    if StrInput[i] == "#":
+    elif StrInput[i] == "#":
         StrOutput += "i"
     # If letter is +, change to o
-    if StrInput[i] == "+":
+    elif StrInput[i] == "+":
         StrOutput += "o"
     # If letter is !, change to u
-    if StrInput[i] == "!":
+    elif StrInput[i] == "!":
         StrOutput += "u"
     # End loop, by compiling all letters
     else:
