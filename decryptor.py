@@ -7,19 +7,19 @@ for i in range(len(StrInput)):
     # If letter is *, change to a
     if StrInput[i] == "*":
         StrOutput += "a"
-# If letter is &, change to e
+    # If letter is &, change to e
     if StrInput[i] == "&":
         StrOutput += "e"
-# If letter is #, change to i
+    # If letter is #, change to i
     if StrInput[i] == "#":
         StrOutput += "i"
-# If letter is +, change to o
+    # If letter is +, change to o
     if StrInput[i] == "+":
         StrOutput += "o"
-# If letter is !, change to u
+    # If letter is !, change to u
     if StrInput[i] == "!":
         StrOutput += "u"
-# End loop, by compiling all letters
+    # End loop, by compiling all letters
     else:
         StrOutput+= StrInput[i]
 # Execute the code
