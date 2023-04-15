@@ -26,7 +26,7 @@ def DecryptorCode():
     return StrOutput
             
 # Execute the code
-StrOutput=DecryptorCode
+StrOutput=DecryptorCode()
 print(StrOutput)
 # String to decrypt: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g.
 # expected text: the quick brown fox jumps over the lazy dog.
