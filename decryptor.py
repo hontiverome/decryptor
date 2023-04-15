@@ -1,4 +1,4 @@
-import termcolor, time
+import pyfiglet, termcolor, time
 # ACTIVITY NO2 PSEUDO CODE WITH GIT COMMITS
 def DecryptorCode():
     # Ask for input:
@@ -32,6 +32,14 @@ def ShowResults():
     for i in range(len(showResults)):
         print(termcolor.colored(showResults[i], 'green'), end='', flush=True)
         time.sleep(0.1)
+def CypherPlainText(): 
+    Seperate= ' '.join(StrOutput)
+    print(termcolor.colored(pyfiglet.figlet_format(StrOutput, font="smkeyboard", justify="center"), 'red'))
+    print("or:\n")
+    for i in range(len(Seperate)):
+        print(termcolor.colored(f"{Seperate[i]}", 'red'), end='', flush=True)
+        time.sleep(0.05)
+
 
 # Execute the code
 StrOutput=DecryptorCode()
