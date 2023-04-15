@@ -7,8 +7,9 @@ for i in range(len(StrInput)):
     # If letter is *, change to a
     if StrInput[i] == "*":
         StrOutput += "a"
-
 # If letter is &, change to e
+    if StrInput[i] == "&":
+        StrOutput += "e"
 # If letter is #, change to i
 # If letter is +, change to o
 # If letter is !, change to u
