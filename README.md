@@ -10,6 +10,6 @@ Assignment to make a code that is able to decrypt the encrypted text
  #### letter is !, change to u
 
 # Output:
-
+ Sample Decrypt Text: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g.
 ![App Screenshot](https://imgur.com/EXgOiwD.png)
 
