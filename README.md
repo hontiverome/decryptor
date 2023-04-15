@@ -1,6 +1,6 @@
 # Decryptor
 
-Assignment to make a code that is able to decrypt the tex
+Assignment to make a code that is able to decrypt the encrypted text
 
 # Text include:
  #### If letter is *, change to a
