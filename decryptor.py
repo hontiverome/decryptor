@@ -44,7 +44,7 @@ def CypherPlainText():
 # Execute the code
 StrOutput=DecryptorCode()
 ShowResults()
-print(StrOutput)
+CypherPlainText()
 
 
 # String to decrypt: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g.
